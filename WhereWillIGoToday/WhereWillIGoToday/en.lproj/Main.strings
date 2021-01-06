@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "3fF-VJ-VXc"; */
+"3fF-VJ-VXc.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8K0-AY-pt2"; */
+"8K0-AY-pt2.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "F3I-N4-dmf"; */
+"F3I-N4-dmf.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LJr-3g-nsM"; */
+"LJr-3g-nsM.text" = "Label";
+
+/* Class = "UINavigationItem"; prompt = "Liebigschule Frankfurt am Main"; ObjectID = "RfO-vs-8sV"; */
+"RfO-vs-8sV.prompt" = "Liebigschule Frankfurt am Main";
+
+/* Class = "UINavigationItem"; title = "Vertretungsplan"; ObjectID = "RfO-vs-8sV"; */
+"RfO-vs-8sV.title" = "Vertretungsplan";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SMk-OM-dxm"; */
+"SMk-OM-dxm.text" = "Label";
+
+/* Class = "UILabel"; text = "Motd"; ObjectID = "Y5D-hw-a3v"; */
+"Y5D-hw-a3v.text" = "Motd";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z1p-5Y-tSg"; */
+"Z1p-5Y-tSg.text" = "Label";
+
+/* Class = "UINavigationController"; title = "Where Will I Go Today"; ObjectID = "pbH-dG-HsG"; */
+"pbH-dG-HsG.title" = "Where Will I Go Today";

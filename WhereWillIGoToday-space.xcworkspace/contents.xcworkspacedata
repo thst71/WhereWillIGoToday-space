@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:WhereWillIGoToday/WhereWillIGoToday.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WhereWillIGoToday_Core/WhereWillIGoToday_Core.xcodeproj">
+   </FileRef>
+</Workspace>

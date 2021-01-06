@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320565F81DCFCE8400D0A057 /* DAOWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 320565EE1DCFCE8400D0A057 /* DAOWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320565F91DCFCE8400D0A057 /* DAOWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 320565EF1DCFCE8400D0A057 /* DAOWrapper.m */; };
+		320565FA1DCFCE8400D0A057 /* GT_PlanDAOJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 320565F01DCFCE8400D0A057 /* GT_PlanDAOJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320565FB1DCFCE8400D0A057 /* GT_PlanDAOJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 320565F11DCFCE8400D0A057 /* GT_PlanDAOJSON.m */; };
+		320565FC1DCFCE8400D0A057 /* GT_PlanDAONetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 320565F21DCFCE8400D0A057 /* GT_PlanDAONetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320565FD1DCFCE8400D0A057 /* GT_PlanDAONetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 320565F31DCFCE8400D0A057 /* GT_PlanDAONetwork.m */; };
+		320565FE1DCFCE8400D0A057 /* GT_SettingsDAOJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 320565F41DCFCE8400D0A057 /* GT_SettingsDAOJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320565FF1DCFCE8400D0A057 /* GT_SettingsDAOJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 320565F51DCFCE8400D0A057 /* GT_SettingsDAOJSON.m */; };
+		320566001DCFCE8400D0A057 /* ModelDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = 320565F61DCFCE8400D0A057 /* ModelDAO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566011DCFCE8400D0A057 /* ModelDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 320565F71DCFCE8400D0A057 /* ModelDAO.m */; };
+		320566121DCFCEAA00D0A057 /* AppBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566031DCFCEAA00D0A057 /* AppBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566131DCFCEAA00D0A057 /* AppBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566041DCFCEAA00D0A057 /* AppBridge.m */; };
+		320566141DCFCEAA00D0A057 /* AppDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566051DCFCEAA00D0A057 /* AppDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566151DCFCEAA00D0A057 /* AppDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566061DCFCEAA00D0A057 /* AppDevice.m */; };
+		320566161DCFCEAA00D0A057 /* AppEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566071DCFCEAA00D0A057 /* AppEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566171DCFCEAA00D0A057 /* AppEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566081DCFCEAA00D0A057 /* AppEnvironment.m */; };
+		320566181DCFCEAA00D0A057 /* GTSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566091DCFCEAA00D0A057 /* GTSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566191DCFCEAA00D0A057 /* GTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205660A1DCFCEAA00D0A057 /* GTSettings.m */; };
+		3205661A1DCFCEAA00D0A057 /* Lifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205660B1DCFCEAA00D0A057 /* Lifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205661B1DCFCEAA00D0A057 /* LifecycleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205660C1DCFCEAA00D0A057 /* LifecycleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205661C1DCFCEAA00D0A057 /* LifecycleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205660D1DCFCEAA00D0A057 /* LifecycleManager.m */; };
+		3205661D1DCFCEAA00D0A057 /* LifecycleWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205660E1DCFCEAA00D0A057 /* LifecycleWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205661E1DCFCEAA00D0A057 /* LifecycleWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205660F1DCFCEAA00D0A057 /* LifecycleWrapper.m */; };
+		3205661F1DCFCEAA00D0A057 /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566101DCFCEAA00D0A057 /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566201DCFCEAA00D0A057 /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566111DCFCEAA00D0A057 /* Result.m */; };
+		320566281DCFCEC300D0A057 /* GT_Plan.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566221DCFCEC300D0A057 /* GT_Plan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566291DCFCEC300D0A057 /* GT_Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566231DCFCEC300D0A057 /* GT_Plan.m */; };
+		3205662A1DCFCEC300D0A057 /* GT_PlanEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566241DCFCEC300D0A057 /* GT_PlanEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205662B1DCFCEC300D0A057 /* GT_PlanEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566251DCFCEC300D0A057 /* GT_PlanEntry.m */; };
+		3205662C1DCFCEC300D0A057 /* GT_Settings.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566261DCFCEC300D0A057 /* GT_Settings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205662D1DCFCEC300D0A057 /* GT_Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566271DCFCEC300D0A057 /* GT_Settings.m */; };
+		320566351DCFCEE900D0A057 /* GT_Klasse.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205662F1DCFCEE900D0A057 /* GT_Klasse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566361DCFCEE900D0A057 /* GT_Klasse.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566301DCFCEE900D0A057 /* GT_Klasse.m */; };
+		320566371DCFCEE900D0A057 /* GT_PlanList.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566311DCFCEE900D0A057 /* GT_PlanList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566381DCFCEE900D0A057 /* GT_PlanList.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566321DCFCEE900D0A057 /* GT_PlanList.m */; };
+		320566391DCFCEE900D0A057 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566331DCFCEE900D0A057 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205663A1DCFCEE900D0A057 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566341DCFCEE900D0A057 /* Model.m */; };
+		320566431DCFCF0900D0A057 /* Condition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205663D1DCFCF0800D0A057 /* Condition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566441DCFCF0900D0A057 /* Condition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205663E1DCFCF0800D0A057 /* Condition.m */; };
+		320566451DCFCF0900D0A057 /* Limit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205663F1DCFCF0800D0A057 /* Limit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566461DCFCF0900D0A057 /* Limit.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566401DCFCF0800D0A057 /* Limit.m */; };
+		320566471DCFCF0900D0A057 /* Query.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566411DCFCF0800D0A057 /* Query.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566481DCFCF0900D0A057 /* Query.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566421DCFCF0800D0A057 /* Query.m */; };
+		3205664D1DCFCF1600D0A057 /* PlanListJSONMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566491DCFCF1600D0A057 /* PlanListJSONMarshaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205664E1DCFCF1600D0A057 /* PlanListJSONMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205664A1DCFCF1600D0A057 /* PlanListJSONMarshaller.m */; };
+		3205664F1DCFCF1600D0A057 /* SettingsJSONMarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205664B1DCFCF1600D0A057 /* SettingsJSONMarshaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566501DCFCF1600D0A057 /* SettingsJSONMarshaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205664C1DCFCF1600D0A057 /* SettingsJSONMarshaller.m */; };
+		320566541DCFCF3100D0A057 /* AppService.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566521DCFCF3100D0A057 /* AppService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566551DCFCF3100D0A057 /* AppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566531DCFCF3100D0A057 /* AppService.m */; };
+		3205665E1DCFCF4D00D0A057 /* AppDebugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566581DCFCF4D00D0A057 /* AppDebugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205665F1DCFCF4D00D0A057 /* AppDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566591DCFCF4D00D0A057 /* AppDebugger.m */; };
+		320566601DCFCF4D00D0A057 /* Marshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205665A1DCFCF4D00D0A057 /* Marshaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566611DCFCF4D00D0A057 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205665B1DCFCF4D00D0A057 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566621DCFCF4D00D0A057 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205665C1DCFCF4D00D0A057 /* Reachability.m */; };
+		320566631DCFCF4D00D0A057 /* Unmarshaller.h in Headers */ = {isa = PBXBuildFile; fileRef = 3205665D1DCFCF4D00D0A057 /* Unmarshaller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566681DCFCF5900D0A057 /* ModelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566641DCFCF5900D0A057 /* ModelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		320566691DCFCF5900D0A057 /* ModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566651DCFCF5900D0A057 /* ModelView.m */; };
+		3205666A1DCFCF5900D0A057 /* PlanListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 320566661DCFCF5900D0A057 /* PlanListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3205666B1DCFCF5900D0A057 /* PlanListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 320566671DCFCF5900D0A057 /* PlanListView.m */; };
+		32E04FCA1DCF446800AA923F /* WhereWillIGoTodayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E04FC01DCF446800AA923F /* WhereWillIGoTodayCore.framework */; };
+		32E04FCF1DCF446800AA923F /* WhereWillIGoToday_CoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E04FCE1DCF446800AA923F /* WhereWillIGoToday_CoreTests.m */; };
+		32E04FD11DCF446800AA923F /* WhereWillIGoToday_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E04FC31DCF446800AA923F /* WhereWillIGoToday_Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E04FCB1DCF446800AA923F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E04FB71DCF446800AA923F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E04FBF1DCF446800AA923F;
+			remoteInfo = WhereWillIGoToday_Core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		320565EE1DCFCE8400D0A057 /* DAOWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAOWrapper.h; path = dao/DAOWrapper.h; sourceTree = "<group>"; };
+		320565EF1DCFCE8400D0A057 /* DAOWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAOWrapper.m; path = dao/DAOWrapper.m; sourceTree = "<group>"; };
+		320565F01DCFCE8400D0A057 /* GT_PlanDAOJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_PlanDAOJSON.h; path = dao/GT_PlanDAOJSON.h; sourceTree = "<group>"; };
+		320565F11DCFCE8400D0A057 /* GT_PlanDAOJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_PlanDAOJSON.m; path = dao/GT_PlanDAOJSON.m; sourceTree = "<group>"; };
+		320565F21DCFCE8400D0A057 /* GT_PlanDAONetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_PlanDAONetwork.h; path = dao/GT_PlanDAONetwork.h; sourceTree = "<group>"; };
+		320565F31DCFCE8400D0A057 /* GT_PlanDAONetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_PlanDAONetwork.m; path = dao/GT_PlanDAONetwork.m; sourceTree = "<group>"; };
+		320565F41DCFCE8400D0A057 /* GT_SettingsDAOJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_SettingsDAOJSON.h; path = dao/GT_SettingsDAOJSON.h; sourceTree = "<group>"; };
+		320565F51DCFCE8400D0A057 /* GT_SettingsDAOJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_SettingsDAOJSON.m; path = dao/GT_SettingsDAOJSON.m; sourceTree = "<group>"; };
+		320565F61DCFCE8400D0A057 /* ModelDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelDAO.h; path = dao/ModelDAO.h; sourceTree = "<group>"; };
+		320565F71DCFCE8400D0A057 /* ModelDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelDAO.m; path = dao/ModelDAO.m; sourceTree = "<group>"; };
+		320566031DCFCEAA00D0A057 /* AppBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppBridge.h; path = environment/AppBridge.h; sourceTree = "<group>"; };
+		320566041DCFCEAA00D0A057 /* AppBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppBridge.m; path = environment/AppBridge.m; sourceTree = "<group>"; };
+		320566051DCFCEAA00D0A057 /* AppDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDevice.h; path = environment/AppDevice.h; sourceTree = "<group>"; };
+		320566061DCFCEAA00D0A057 /* AppDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDevice.m; path = environment/AppDevice.m; sourceTree = "<group>"; };
+		320566071DCFCEAA00D0A057 /* AppEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppEnvironment.h; path = environment/AppEnvironment.h; sourceTree = "<group>"; };
+		320566081DCFCEAA00D0A057 /* AppEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppEnvironment.m; path = environment/AppEnvironment.m; sourceTree = "<group>"; };
+		320566091DCFCEAA00D0A057 /* GTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTSettings.h; path = environment/GTSettings.h; sourceTree = "<group>"; };
+		3205660A1DCFCEAA00D0A057 /* GTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTSettings.m; path = environment/GTSettings.m; sourceTree = "<group>"; };
+		3205660B1DCFCEAA00D0A057 /* Lifecycle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lifecycle.h; path = environment/Lifecycle.h; sourceTree = "<group>"; };
+		3205660C1DCFCEAA00D0A057 /* LifecycleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifecycleManager.h; path = environment/LifecycleManager.h; sourceTree = "<group>"; };
+		3205660D1DCFCEAA00D0A057 /* LifecycleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LifecycleManager.m; path = environment/LifecycleManager.m; sourceTree = "<group>"; };
+		3205660E1DCFCEAA00D0A057 /* LifecycleWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LifecycleWrapper.h; path = environment/LifecycleWrapper.h; sourceTree = "<group>"; };
+		3205660F1DCFCEAA00D0A057 /* LifecycleWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LifecycleWrapper.m; path = environment/LifecycleWrapper.m; sourceTree = "<group>"; };
+		320566101DCFCEAA00D0A057 /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Result.h; path = environment/Result.h; sourceTree = "<group>"; };
+		320566111DCFCEAA00D0A057 /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Result.m; path = environment/Result.m; sourceTree = "<group>"; };
+		320566221DCFCEC300D0A057 /* GT_Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_Plan.h; path = generated/GT_Plan.h; sourceTree = "<group>"; };
+		320566231DCFCEC300D0A057 /* GT_Plan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_Plan.m; path = generated/GT_Plan.m; sourceTree = "<group>"; };
+		320566241DCFCEC300D0A057 /* GT_PlanEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_PlanEntry.h; path = generated/GT_PlanEntry.h; sourceTree = "<group>"; };
+		320566251DCFCEC300D0A057 /* GT_PlanEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_PlanEntry.m; path = generated/GT_PlanEntry.m; sourceTree = "<group>"; };
+		320566261DCFCEC300D0A057 /* GT_Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_Settings.h; path = generated/GT_Settings.h; sourceTree = "<group>"; };
+		320566271DCFCEC300D0A057 /* GT_Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_Settings.m; path = generated/GT_Settings.m; sourceTree = "<group>"; };
+		3205662F1DCFCEE900D0A057 /* GT_Klasse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_Klasse.h; path = model/GT_Klasse.h; sourceTree = "<group>"; };
+		320566301DCFCEE900D0A057 /* GT_Klasse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_Klasse.m; path = model/GT_Klasse.m; sourceTree = "<group>"; };
+		320566311DCFCEE900D0A057 /* GT_PlanList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GT_PlanList.h; path = model/GT_PlanList.h; sourceTree = "<group>"; };
+		320566321DCFCEE900D0A057 /* GT_PlanList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GT_PlanList.m; path = model/GT_PlanList.m; sourceTree = "<group>"; };
+		320566331DCFCEE900D0A057 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = model/Model.h; sourceTree = "<group>"; };
+		320566341DCFCEE900D0A057 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = model/Model.m; sourceTree = "<group>"; };
+		3205663D1DCFCF0800D0A057 /* Condition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Condition.h; path = query/Condition.h; sourceTree = "<group>"; };
+		3205663E1DCFCF0800D0A057 /* Condition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Condition.m; path = query/Condition.m; sourceTree = "<group>"; };
+		3205663F1DCFCF0800D0A057 /* Limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Limit.h; path = query/Limit.h; sourceTree = "<group>"; };
+		320566401DCFCF0800D0A057 /* Limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Limit.m; path = query/Limit.m; sourceTree = "<group>"; };
+		320566411DCFCF0800D0A057 /* Query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Query.h; path = query/Query.h; sourceTree = "<group>"; };
+		320566421DCFCF0800D0A057 /* Query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Query.m; path = query/Query.m; sourceTree = "<group>"; };
+		320566491DCFCF1600D0A057 /* PlanListJSONMarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanListJSONMarshaller.h; path = serializer/PlanListJSONMarshaller.h; sourceTree = "<group>"; };
+		3205664A1DCFCF1600D0A057 /* PlanListJSONMarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanListJSONMarshaller.m; path = serializer/PlanListJSONMarshaller.m; sourceTree = "<group>"; };
+		3205664B1DCFCF1600D0A057 /* SettingsJSONMarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsJSONMarshaller.h; path = serializer/SettingsJSONMarshaller.h; sourceTree = "<group>"; };
+		3205664C1DCFCF1600D0A057 /* SettingsJSONMarshaller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsJSONMarshaller.m; path = serializer/SettingsJSONMarshaller.m; sourceTree = "<group>"; };
+		320566521DCFCF3100D0A057 /* AppService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppService.h; path = service/AppService.h; sourceTree = "<group>"; };
+		320566531DCFCF3100D0A057 /* AppService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppService.m; path = service/AppService.m; sourceTree = "<group>"; };
+		320566581DCFCF4D00D0A057 /* AppDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDebugger.h; path = tool/AppDebugger.h; sourceTree = "<group>"; };
+		320566591DCFCF4D00D0A057 /* AppDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDebugger.m; path = tool/AppDebugger.m; sourceTree = "<group>"; };
+		3205665A1DCFCF4D00D0A057 /* Marshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Marshaller.h; path = tool/Marshaller.h; sourceTree = "<group>"; };
+		3205665B1DCFCF4D00D0A057 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = tool/Reachability.h; sourceTree = "<group>"; };
+		3205665C1DCFCF4D00D0A057 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = tool/Reachability.m; sourceTree = "<group>"; };
+		3205665D1DCFCF4D00D0A057 /* Unmarshaller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unmarshaller.h; path = tool/Unmarshaller.h; sourceTree = "<group>"; };
+		320566641DCFCF5900D0A057 /* ModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModelView.h; path = view/ModelView.h; sourceTree = "<group>"; };
+		320566651DCFCF5900D0A057 /* ModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModelView.m; path = view/ModelView.m; sourceTree = "<group>"; };
+		320566661DCFCF5900D0A057 /* PlanListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlanListView.h; path = view/PlanListView.h; sourceTree = "<group>"; };
+		320566671DCFCF5900D0A057 /* PlanListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlanListView.m; path = view/PlanListView.m; sourceTree = "<group>"; };
+		32E04FC01DCF446800AA923F /* WhereWillIGoTodayCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhereWillIGoTodayCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E04FC31DCF446800AA923F /* WhereWillIGoToday_Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereWillIGoToday_Core.h; sourceTree = "<group>"; };
+		32E04FC41DCF446800AA923F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E04FC91DCF446800AA923F /* WhereWillIGoToday_CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereWillIGoToday_CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E04FCE1DCF446800AA923F /* WhereWillIGoToday_CoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereWillIGoToday_CoreTests.m; sourceTree = "<group>"; };
+		32E04FD01DCF446800AA923F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E04FBC1DCF446800AA923F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E04FC61DCF446800AA923F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E04FCA1DCF446800AA923F /* WhereWillIGoTodayCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		320565ED1DCFCE6900D0A057 /* dao */ = {
+			isa = PBXGroup;
+			children = (
+				320565EE1DCFCE8400D0A057 /* DAOWrapper.h */,
+				320565EF1DCFCE8400D0A057 /* DAOWrapper.m */,
+				320565F01DCFCE8400D0A057 /* GT_PlanDAOJSON.h */,
+				320565F11DCFCE8400D0A057 /* GT_PlanDAOJSON.m */,
+				320565F21DCFCE8400D0A057 /* GT_PlanDAONetwork.h */,
+				320565F31DCFCE8400D0A057 /* GT_PlanDAONetwork.m */,
+				320565F41DCFCE8400D0A057 /* GT_SettingsDAOJSON.h */,
+				320565F51DCFCE8400D0A057 /* GT_SettingsDAOJSON.m */,
+				320565F61DCFCE8400D0A057 /* ModelDAO.h */,
+				320565F71DCFCE8400D0A057 /* ModelDAO.m */,
+			);
+			name = dao;
+			sourceTree = "<group>";
+		};
+		320566021DCFCE9B00D0A057 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				320566031DCFCEAA00D0A057 /* AppBridge.h */,
+				320566041DCFCEAA00D0A057 /* AppBridge.m */,
+				320566051DCFCEAA00D0A057 /* AppDevice.h */,
+				320566061DCFCEAA00D0A057 /* AppDevice.m */,
+				320566071DCFCEAA00D0A057 /* AppEnvironment.h */,
+				320566081DCFCEAA00D0A057 /* AppEnvironment.m */,
+				320566091DCFCEAA00D0A057 /* GTSettings.h */,
+				3205660A1DCFCEAA00D0A057 /* GTSettings.m */,
+				3205660B1DCFCEAA00D0A057 /* Lifecycle.h */,
+				3205660C1DCFCEAA00D0A057 /* LifecycleManager.h */,
+				3205660D1DCFCEAA00D0A057 /* LifecycleManager.m */,
+				3205660E1DCFCEAA00D0A057 /* LifecycleWrapper.h */,
+				3205660F1DCFCEAA00D0A057 /* LifecycleWrapper.m */,
+				320566101DCFCEAA00D0A057 /* Result.h */,
+				320566111DCFCEAA00D0A057 /* Result.m */,
+			);
+			name = environment;
+			sourceTree = "<group>";
+		};
+		320566211DCFCEB600D0A057 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+				320566221DCFCEC300D0A057 /* GT_Plan.h */,
+				320566231DCFCEC300D0A057 /* GT_Plan.m */,
+				320566241DCFCEC300D0A057 /* GT_PlanEntry.h */,
+				320566251DCFCEC300D0A057 /* GT_PlanEntry.m */,
+				320566261DCFCEC300D0A057 /* GT_Settings.h */,
+				320566271DCFCEC300D0A057 /* GT_Settings.m */,
+			);
+			name = generated;
+			sourceTree = "<group>";
+		};
+		3205662E1DCFCEDF00D0A057 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3205662F1DCFCEE900D0A057 /* GT_Klasse.h */,
+				320566301DCFCEE900D0A057 /* GT_Klasse.m */,
+				320566311DCFCEE900D0A057 /* GT_PlanList.h */,
+				320566321DCFCEE900D0A057 /* GT_PlanList.m */,
+				320566331DCFCEE900D0A057 /* Model.h */,
+				320566341DCFCEE900D0A057 /* Model.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3205663B1DCFCEF500D0A057 /* query */ = {
+			isa = PBXGroup;
+			children = (
+				3205663D1DCFCF0800D0A057 /* Condition.h */,
+				3205663E1DCFCF0800D0A057 /* Condition.m */,
+				3205663F1DCFCF0800D0A057 /* Limit.h */,
+				320566401DCFCF0800D0A057 /* Limit.m */,
+				320566411DCFCF0800D0A057 /* Query.h */,
+				320566421DCFCF0800D0A057 /* Query.m */,
+			);
+			name = query;
+			sourceTree = "<group>";
+		};
+		3205663C1DCFCEFC00D0A057 /* serializer */ = {
+			isa = PBXGroup;
+			children = (
+				320566491DCFCF1600D0A057 /* PlanListJSONMarshaller.h */,
+				3205664A1DCFCF1600D0A057 /* PlanListJSONMarshaller.m */,
+				3205664B1DCFCF1600D0A057 /* SettingsJSONMarshaller.h */,
+				3205664C1DCFCF1600D0A057 /* SettingsJSONMarshaller.m */,
+			);
+			name = serializer;
+			sourceTree = "<group>";
+		};
+		320566511DCFCF2500D0A057 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				320566521DCFCF3100D0A057 /* AppService.h */,
+				320566531DCFCF3100D0A057 /* AppService.m */,
+			);
+			name = service;
+			sourceTree = "<group>";
+		};
+		320566561DCFCF3D00D0A057 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				320566581DCFCF4D00D0A057 /* AppDebugger.h */,
+				320566591DCFCF4D00D0A057 /* AppDebugger.m */,
+				3205665A1DCFCF4D00D0A057 /* Marshaller.h */,
+				3205665B1DCFCF4D00D0A057 /* Reachability.h */,
+				3205665C1DCFCF4D00D0A057 /* Reachability.m */,
+				3205665D1DCFCF4D00D0A057 /* Unmarshaller.h */,
+			);
+			name = tool;
+			sourceTree = "<group>";
+		};
+		320566571DCFCF4200D0A057 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				320566641DCFCF5900D0A057 /* ModelView.h */,
+				320566651DCFCF5900D0A057 /* ModelView.m */,
+				320566661DCFCF5900D0A057 /* PlanListView.h */,
+				320566671DCFCF5900D0A057 /* PlanListView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		32E04FB61DCF446800AA923F = {
+			isa = PBXGroup;
+			children = (
+				32E04FC21DCF446800AA923F /* WhereWillIGoTodayCore */,
+				32E04FCD1DCF446800AA923F /* WhereWillIGoToday_CoreTests */,
+				32E04FC11DCF446800AA923F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E04FC11DCF446800AA923F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E04FC01DCF446800AA923F /* WhereWillIGoTodayCore.framework */,
+				32E04FC91DCF446800AA923F /* WhereWillIGoToday_CoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E04FC21DCF446800AA923F /* WhereWillIGoTodayCore */ = {
+			isa = PBXGroup;
+			children = (
+				320565ED1DCFCE6900D0A057 /* dao */,
+				320566021DCFCE9B00D0A057 /* environment */,
+				320566211DCFCEB600D0A057 /* generated */,
+				32E04FC41DCF446800AA923F /* Info.plist */,
+				3205662E1DCFCEDF00D0A057 /* model */,
+				3205663B1DCFCEF500D0A057 /* query */,
+				3205663C1DCFCEFC00D0A057 /* serializer */,
+				320566511DCFCF2500D0A057 /* service */,
+				320566561DCFCF3D00D0A057 /* tool */,
+				320566571DCFCF4200D0A057 /* view */,
+				32E04FC31DCF446800AA923F /* WhereWillIGoToday_Core.h */,
+			);
+			name = WhereWillIGoTodayCore;
+			path = WhereWillIGoToday_Core;
+			sourceTree = "<group>";
+		};
+		32E04FCD1DCF446800AA923F /* WhereWillIGoToday_CoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E04FCE1DCF446800AA923F /* WhereWillIGoToday_CoreTests.m */,
+				32E04FD01DCF446800AA923F /* Info.plist */,
+			);
+			path = WhereWillIGoToday_CoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32E04FBD1DCF446800AA923F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E04FD11DCF446800AA923F /* WhereWillIGoToday_Core.h in Headers */,
+				3205661F1DCFCEAA00D0A057 /* Result.h in Headers */,
+				320566451DCFCF0900D0A057 /* Limit.h in Headers */,
+				320565FC1DCFCE8400D0A057 /* GT_PlanDAONetwork.h in Headers */,
+				320565FA1DCFCE8400D0A057 /* GT_PlanDAOJSON.h in Headers */,
+				320566371DCFCEE900D0A057 /* GT_PlanList.h in Headers */,
+				320566541DCFCF3100D0A057 /* AppService.h in Headers */,
+				3205664F1DCFCF1600D0A057 /* SettingsJSONMarshaller.h in Headers */,
+				3205666A1DCFCF5900D0A057 /* PlanListView.h in Headers */,
+				320566471DCFCF0900D0A057 /* Query.h in Headers */,
+				3205665E1DCFCF4D00D0A057 /* AppDebugger.h in Headers */,
+				320566351DCFCEE900D0A057 /* GT_Klasse.h in Headers */,
+				320566141DCFCEAA00D0A057 /* AppDevice.h in Headers */,
+				320565FE1DCFCE8400D0A057 /* GT_SettingsDAOJSON.h in Headers */,
+				320566121DCFCEAA00D0A057 /* AppBridge.h in Headers */,
+				320566631DCFCF4D00D0A057 /* Unmarshaller.h in Headers */,
+				3205661A1DCFCEAA00D0A057 /* Lifecycle.h in Headers */,
+				320566601DCFCF4D00D0A057 /* Marshaller.h in Headers */,
+				320566161DCFCEAA00D0A057 /* AppEnvironment.h in Headers */,
+				3205661B1DCFCEAA00D0A057 /* LifecycleManager.h in Headers */,
+				320566281DCFCEC300D0A057 /* GT_Plan.h in Headers */,
+				320566431DCFCF0900D0A057 /* Condition.h in Headers */,
+				320566181DCFCEAA00D0A057 /* GTSettings.h in Headers */,
+				320566001DCFCE8400D0A057 /* ModelDAO.h in Headers */,
+				3205662C1DCFCEC300D0A057 /* GT_Settings.h in Headers */,
+				320566391DCFCEE900D0A057 /* Model.h in Headers */,
+				3205664D1DCFCF1600D0A057 /* PlanListJSONMarshaller.h in Headers */,
+				3205662A1DCFCEC300D0A057 /* GT_PlanEntry.h in Headers */,
+				320566611DCFCF4D00D0A057 /* Reachability.h in Headers */,
+				3205661D1DCFCEAA00D0A057 /* LifecycleWrapper.h in Headers */,
+				320566681DCFCF5900D0A057 /* ModelView.h in Headers */,
+				320565F81DCFCE8400D0A057 /* DAOWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32E04FBF1DCF446800AA923F /* WhereWillIGoTodayCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E04FD41DCF446800AA923F /* Build configuration list for PBXNativeTarget "WhereWillIGoTodayCore" */;
+			buildPhases = (
+				32E04FBB1DCF446800AA923F /* Sources */,
+				32E04FBC1DCF446800AA923F /* Frameworks */,
+				32E04FBD1DCF446800AA923F /* Headers */,
+				32E04FBE1DCF446800AA923F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhereWillIGoTodayCore;
+			productName = WhereWillIGoToday_Core;
+			productReference = 32E04FC01DCF446800AA923F /* WhereWillIGoTodayCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32E04FC81DCF446800AA923F /* WhereWillIGoToday_CoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E04FD71DCF446800AA923F /* Build configuration list for PBXNativeTarget "WhereWillIGoToday_CoreTests" */;
+			buildPhases = (
+				32E04FC51DCF446800AA923F /* Sources */,
+				32E04FC61DCF446800AA923F /* Frameworks */,
+				32E04FC71DCF446800AA923F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E04FCC1DCF446800AA923F /* PBXTargetDependency */,
+			);
+			name = WhereWillIGoToday_CoreTests;
+			productName = WhereWillIGoToday_CoreTests;
+			productReference = 32E04FC91DCF446800AA923F /* WhereWillIGoToday_CoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E04FB71DCF446800AA923F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Thomas Strauß";
+				TargetAttributes = {
+					32E04FBF1DCF446800AA923F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J952Q7NEGD;
+						ProvisioningStyle = Manual;
+					};
+					32E04FC81DCF446800AA923F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J952Q7NEGD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 32E04FBA1DCF446800AA923F /* Build configuration list for PBXProject "WhereWillIGoToday_Core" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 32E04FB61DCF446800AA923F;
+			productRefGroup = 32E04FC11DCF446800AA923F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E04FBF1DCF446800AA923F /* WhereWillIGoTodayCore */,
+				32E04FC81DCF446800AA923F /* WhereWillIGoToday_CoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E04FBE1DCF446800AA923F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E04FC71DCF446800AA923F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E04FBB1DCF446800AA923F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320566621DCFCF4D00D0A057 /* Reachability.m in Sources */,
+				320566501DCFCF1600D0A057 /* SettingsJSONMarshaller.m in Sources */,
+				320566291DCFCEC300D0A057 /* GT_Plan.m in Sources */,
+				3205662D1DCFCEC300D0A057 /* GT_Settings.m in Sources */,
+				3205661E1DCFCEAA00D0A057 /* LifecycleWrapper.m in Sources */,
+				3205663A1DCFCEE900D0A057 /* Model.m in Sources */,
+				320566361DCFCEE900D0A057 /* GT_Klasse.m in Sources */,
+				3205662B1DCFCEC300D0A057 /* GT_PlanEntry.m in Sources */,
+				320565FF1DCFCE8400D0A057 /* GT_SettingsDAOJSON.m in Sources */,
+				320566171DCFCEAA00D0A057 /* AppEnvironment.m in Sources */,
+				320566551DCFCF3100D0A057 /* AppService.m in Sources */,
+				320566191DCFCEAA00D0A057 /* GTSettings.m in Sources */,
+				320566011DCFCE8400D0A057 /* ModelDAO.m in Sources */,
+				3205661C1DCFCEAA00D0A057 /* LifecycleManager.m in Sources */,
+				320566201DCFCEAA00D0A057 /* Result.m in Sources */,
+				320566691DCFCF5900D0A057 /* ModelView.m in Sources */,
+				320566131DCFCEAA00D0A057 /* AppBridge.m in Sources */,
+				320566381DCFCEE900D0A057 /* GT_PlanList.m in Sources */,
+				320566151DCFCEAA00D0A057 /* AppDevice.m in Sources */,
+				320565FB1DCFCE8400D0A057 /* GT_PlanDAOJSON.m in Sources */,
+				320565FD1DCFCE8400D0A057 /* GT_PlanDAONetwork.m in Sources */,
+				3205664E1DCFCF1600D0A057 /* PlanListJSONMarshaller.m in Sources */,
+				320566461DCFCF0900D0A057 /* Limit.m in Sources */,
+				320566481DCFCF0900D0A057 /* Query.m in Sources */,
+				320566441DCFCF0900D0A057 /* Condition.m in Sources */,
+				3205665F1DCFCF4D00D0A057 /* AppDebugger.m in Sources */,
+				320565F91DCFCE8400D0A057 /* DAOWrapper.m in Sources */,
+				3205666B1DCFCF5900D0A057 /* PlanListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E04FC51DCF446800AA923F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E04FCF1DCF446800AA923F /* WhereWillIGoToday_CoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E04FCC1DCF446800AA923F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E04FBF1DCF446800AA923F /* WhereWillIGoTodayCore */;
+			targetProxy = 32E04FCB1DCF446800AA923F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32E04FD21DCF446800AA923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E04FD31DCF446800AA923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32E04FD51DCF446800AA923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J952Q7NEGD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhereWillIGoToday_Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.identifier.WhereWillIGoTodayCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E04FD61DCF446800AA923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J952Q7NEGD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhereWillIGoToday_Core/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.identifier.WhereWillIGoTodayCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32E04FD81DCF446800AA923F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J952Q7NEGD;
+				INFOPLIST_FILE = WhereWillIGoToday_CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.identifier.WhereWillIGoToday_CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32E04FD91DCF446800AA923F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J952Q7NEGD;
+				INFOPLIST_FILE = WhereWillIGoToday_CoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.identifier.WhereWillIGoToday_CoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E04FBA1DCF446800AA923F /* Build configuration list for PBXProject "WhereWillIGoToday_Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E04FD21DCF446800AA923F /* Debug */,
+				32E04FD31DCF446800AA923F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E04FD41DCF446800AA923F /* Build configuration list for PBXNativeTarget "WhereWillIGoTodayCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E04FD51DCF446800AA923F /* Debug */,
+				32E04FD61DCF446800AA923F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E04FD71DCF446800AA923F /* Build configuration list for PBXNativeTarget "WhereWillIGoToday_CoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E04FD81DCF446800AA923F /* Debug */,
+				32E04FD91DCF446800AA923F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E04FB71DCF446800AA923F /* Project object */;
+}

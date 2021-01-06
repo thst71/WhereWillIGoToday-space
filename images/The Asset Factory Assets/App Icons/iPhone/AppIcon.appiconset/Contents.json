@@ -1,0 +1,69 @@
+{
+  "author" : "The Asset Factory",
+  "images" : [
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "expected-size" : "180",
+      "scale" : "3x",
+      "filename" : "iphone-appicon@3x.png"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "expected-size" : "80",
+      "scale" : "2x",
+      "filename" : "iphone-spotlight@2x.png"
+    },
+    {
+      "size" : "40x40",
+      "idiom" : "iphone",
+      "expected-size" : "120",
+      "scale" : "3x",
+      "filename" : "iphone-spotlight@3x.png"
+    },
+    {
+      "size" : "60x60",
+      "idiom" : "iphone",
+      "expected-size" : "120",
+      "scale" : "2x",
+      "filename" : "iphone-appicon@2x.png"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "expected-size" : "57",
+      "scale" : "1x",
+      "filename" : "iphone-oldAppicon@1x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "expected-size" : "58",
+      "scale" : "2x",
+      "filename" : "iphone-settings@2x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "expected-size" : "29",
+      "scale" : "1x",
+      "filename" : "iphone-settings@1x.png"
+    },
+    {
+      "size" : "29x29",
+      "idiom" : "iphone",
+      "expected-size" : "87",
+      "scale" : "3x",
+      "filename" : "iphone-settings@3x.png"
+    },
+    {
+      "size" : "57x57",
+      "idiom" : "iphone",
+      "expected-size" : "114",
+      "scale" : "2x",
+      "filename" : "iphone-oldAppicon@2x.png"
+    }
+  ],
+  "version" : "2.1"
+}
